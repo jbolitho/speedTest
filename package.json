@@ -1,0 +1,22 @@
+{
+  "name": "speedtest",
+  "version": "1.0.0",
+  "description": "Simple Testing of Internet Speed that stores to Mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John H. Bolitho <johnbolitho@gmail.com> (http://devjitsu.ninja/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.11.0"
+  },
+  "dependencies": {
+    "assert": "1.4.1",
+    "mongodb": "3.0.7",
+    "node-schedule": "1.3.0",
+    "speedtest-net": "1.4.2"
+  }
+}
